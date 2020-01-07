@@ -3,12 +3,12 @@ import os
 import csv
 
 # Path to csv
-election_data_csv = os.path.join("Resources", "election_data.csv")
+election_data_csv = os.path.join('Resources', 'election_data.csv')
 electionList = list()
 
+# Openning csv
 with open(election_data_csv) as csvfile:
-    csvreader = csv.reader(csvfile, delimiter=",")
-
+    csvreader = csv.reader(csvfile, delimiter=',')
     csv_header = next(csvfile)
     totalVotes = 0
     totalKhan = 0
