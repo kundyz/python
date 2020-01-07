@@ -8,7 +8,7 @@ budgetList = list()
 
 # Openning csv
 with open(budget_data_csv) as csvfile:
-    csvreader = csv.reader(csvfile, delimiter=",")
+    csvreader = csv.reader(csvfile, delimiter=',')
     csv_header = next(csvfile) 
     for row in csvreader:
         dateValueTuple = (row[0], int(row[1]))
@@ -39,6 +39,7 @@ for i, dateValueTuple in enumerate(budgetList):
     if greatestDecrease[1] > changeInProfit:
         greatestDecrease = (currentDate, changeInProfit)
 
+# Printing output
 print('Financial Analysis')
 print('----------------------')
 print(f"Total Months: {monthCounter}")
