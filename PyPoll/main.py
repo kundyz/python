@@ -23,10 +23,10 @@ with open(election_data_csv) as csvfile:
         county = row[1]
         candidate = row[2]
 
-        #The total number of votes cast
+        # The total number of votes cast
         totalVotes = totalVotes + 1
 
-        #A complete list of candidates who received votes
+        # A complete list of candidates who received votes
         if candidate == 'Khan':
             totalKhan += 1
             if winnerTotal < totalKhan:
@@ -59,3 +59,4 @@ with open(election_data_csv) as csvfile:
     print('----------------------')
     print(f'Winner: {winnerName}')
     print('----------------------')
+    
