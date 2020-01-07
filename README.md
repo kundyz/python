@@ -1,2 +1,2 @@
 # PyBank
-![logo](/images/logo.jpg)
+![logo](/PyBank/images/logo.jpg)
