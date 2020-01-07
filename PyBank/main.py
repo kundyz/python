@@ -2,7 +2,8 @@
 import os
 import csv
 
-budget_data_csv = os.path.join("Resources", "budget_data.csv")
+# Path to csv
+budget_data_csv = os.path.join('Resources', 'budget_data.csv')
 budgetList = list()
 
 with open(budget_data_csv) as csvfile:
