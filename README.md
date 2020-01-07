@@ -9,6 +9,17 @@ Task
 * The greatest decrease in losses (date and amount) over the entire period
 
 Output
+![logo](/PyBank/images/output.PNG)
 
 # PyPoll
 ![logo](/PyPoll/images/logo.jpg)
+
+Task
+* The total number of votes cast
+* A complete list of candidates who received votes
+* The percentage of votes each candidate won
+* The total number of votes each candidate won
+* The winner of the election based on popular vote
+
+Output
+![logo](/PyPoll/images/output.PNG)
