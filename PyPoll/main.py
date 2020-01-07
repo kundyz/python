@@ -1,6 +1,8 @@
+# Dependencies
 import os
 import csv
 
+# Path to csv
 election_data_csv = os.path.join("Resources", "election_data.csv")
 electionList = list()
 
