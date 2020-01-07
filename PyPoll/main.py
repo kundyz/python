@@ -46,8 +46,9 @@ with open(election_data_csv) as csvfile:
             totalOTooley +=1
             if winnerTotal < totalOTooley:
                 winnerTotal = totalOTooley
-                winnerName = "O'Tooley"
+                winnerName = "O'Tooley"    
 
+    # Printing output
     print('Election Results')
     print('----------------------')
     print(f'Total Votes: {totalVotes}')
@@ -59,4 +60,3 @@ with open(election_data_csv) as csvfile:
     print('----------------------')
     print(f'Winner: {winnerName}')
     print('----------------------')
-    
