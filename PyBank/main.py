@@ -9,7 +9,7 @@ budgetList = list()
 # Openning csv
 with open(budget_data_csv) as csvfile:
     csvreader = csv.reader(csvfile, delimiter=',')
-    csv_header = next(csvfile) 
+    csv_header = next(csvfile)
     for row in csvreader:
         dateValueTuple = (row[0], int(row[1]))
         budgetList.append(dateValueTuple)

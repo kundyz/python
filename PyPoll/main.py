@@ -22,11 +22,12 @@ with open(election_data_csv) as csvfile:
         voterID = int(row[0])
         county = row[1]
         candidate = row[2]
-
         # The total number of votes cast
         totalVotes = totalVotes + 1
-
         # A complete list of candidates who received votes
+        # The percentage of votes each candidate won
+        # The total number of votes each candidate won
+        # The winner of the election based on popular vote
         if candidate == 'Khan':
             totalKhan += 1
             if winnerTotal < totalKhan:
