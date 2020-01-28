@@ -34,3 +34,18 @@ Task
 * The State data should be re-written as simple two-letter abbreviations.
 
 Output
+
+![logo](/PyBoss/images/output.PNG)
+
+# PyParagraph
+![logo](/PyParagraph/images/logo.jpg)
+
+Task
+* Approximate word count.
+* Approximate sentence count.
+* Average letter count (per word).
+* Average sentence length (in words).
+
+Output
+
+![logo](/PyParagraph/images/output.PNG)
