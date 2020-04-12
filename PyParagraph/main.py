@@ -37,4 +37,5 @@ paragraph_output = (f"\nParagraph Analysis\n"
                     f"Average Sentence Length: {average_sentence_length}\n")
 
 with open(paragraph_txt_output, 'a') as txt_file:
-    txt_file.write(paragraph_output)    
+    txt_file.write(paragraph_output)
+    

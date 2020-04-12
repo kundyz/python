@@ -99,3 +99,4 @@ with open(employee_data_output, 'w', newline='') as datafile:
     csv_writer = csv.writer(datafile)
     csv_writer.writerow(['Emp ID', 'First Name', 'Last Name', 'DOB', 'SSN', 'State'])
     csv_writer.writerows(emp_zip)
+    
