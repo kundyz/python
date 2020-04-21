@@ -34,7 +34,6 @@ Task
 * The State data should be re-written as simple two-letter abbreviations.
 
 Output
-
 ![logo](/PyBoss/images/output.PNG)
 
 # PyParagraph
@@ -47,5 +46,4 @@ Task
 * Average sentence length (in words).
 
 Output
-
 ![logo](/PyParagraph/images/output.PNG)
